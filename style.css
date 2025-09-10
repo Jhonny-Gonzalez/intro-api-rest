@@ -1,0 +1,74 @@
+/* Importar la fuente desde Google Fonts si no se hizo en el HTML */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap');
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Estilo para títulos pequeños y en mayúsculas (como en la UI de Nothing) */
+.small-caps {
+    letter-spacing: 0.1em;
+    font-size: 0.8rem;
+}
+
+/* Navbar transparente */
+.navbar.bg-transparent {
+    background-color: transparent !important;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+/* Botones con estilo minimalista */
+.btn-outline-light {
+    border-radius: 2rem; /* Bordes más redondeados */
+    border-width: 1px;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.btn-outline-light:disabled {
+    opacity: 0.5;
+}
+
+/* Tabla con apariencia limpia */
+.table {
+    --bs-table-bg: #111111; /* Un poco más claro que el fondo para destacar */
+    --bs-table-border-color: #333333;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th, .table td {
+    padding: 1rem;
+    vertical-align: middle;
+}
+
+.table thead tr {
+    border-bottom: 1px solid #333333;
+}
+
+.table tbody tr:last-child {
+    border-bottom: none;
+}
+
+/* Display del último status */
+#last-status {
+    letter-spacing: -0.02em;
+}
+
+/* Footer */
+.footer {
+    border-top: 1px solid #222222;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
